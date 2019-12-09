@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mystyle.css">
+   
+    <title>S4CReport</title>
+</head>
+<body>
+
+    <header>
+            <marquee behavior="alternate">
+        <h1>Super ALLSTARS RPG</h1>
+    </marquee>
+    </header>
+
+     <main>
+            <div class="wrap">
+            <div id="player"  id="player">
+                    <img src="img/01491b1a2eba0cd1fac26dde6fb85acc.jpg" alt="goku">
+                    <br>
+                    <button class="btn" onclick="character1.attack(character2,selectItem());">Attack</button>
+                    <button class="btn" onclick="character1.attackWItem(character2,selectItem())" >Attack with Item</button>
+                    <div id="c1">
+    
+                    </div>
+                </div>
+                <div id="opponent">
+                    <img src="img/super-smash-bros-ultimate-promo.jpg" alt="mario">
+                    <br>
+                    <button class="btn" onclick="character2.attack(character1)">Attack</button>
+                    <button class="btn" onclick="character2.attackWItem(character1,selectItem())">Attack with Item</button>
+                    <div id="c2">
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                        <div id="console">
+
+</div>
+<button class="btn2" onclick="reset(character1,character2)">Reset</button>
+<br>
+    </main>
+
+    <footer>
+            <marquee behavior="alternate">
+            <p>Kullen "Kaotic Kiid" Carter & copy; All Rights Reserved 2019 </p>
+        </marquee>
+        </footer>
+        
+        <script src="script.js"></script>
+</body>
+
+</html>

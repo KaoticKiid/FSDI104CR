@@ -1,0 +1,70 @@
+img {
+    width: 200px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+
+#player {
+    background: blue;
+    height: auto;
+    width: 350px;
+    flex-basis: (40%-10px);
+    margin: 10px;
+    text-align: center;
+}
+#opponent {
+    background: blue;
+    height: auto;
+    width: 350px;
+    flex-basis: (40%-10px);
+    margin: 10px;
+    text-align: center;
+}
+header {
+    background: yellow;
+    height: 100px;
+    text-align: center;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    height: 60px;
+    background: yellow;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.btn {
+    background: red;
+}
+.btn:hover {
+    background:yellow;
+}
+
+#console{
+    background: gray;
+    color: yellow;
+    width: auto;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imgItem{
+    width: 20px;
+}
+
+.btn2 {
+    background:red;
+    text-align: center;
+    justify-content: center;
+}
+.btn2:hover {
+    background:yellow;
+}
